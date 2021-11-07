@@ -18,8 +18,10 @@ body {
     margin: auto;
 }
 
+/* header and navbar */
 .topcontainer {
     display: flex;
+    flex-wrap: wrap;
     background-color: var(--brink-pink);
     justify-content: space-between;
     align-items: center;
@@ -27,7 +29,7 @@ body {
 
 #logo {
     background-color: var(--sandy-brown);
-    width: 15%;
+    flex: 0 1 100px;
     text-align: right;
     padding: 10px 10px 10px 0px;
     color: var(--ghost-white);
@@ -41,18 +43,26 @@ body {
 
 #navbar a {
     text-decoration: none;
-    font-size: 18px;
-    padding: 15px;
+    font-size: 20px;
+    color: var(--ghost-white);
+    padding: 10px 20px;
 }
 
-/* background image */
+/* background image and avatar*/
 .gradient {
-    height: 400px;
-    width: 100%;
-    margin-bottom: 25px;
     background-image: url("../images/sean-sinclair-C_NJKfnTR5A-unsplash.jpg");
+    position: relative;
+    height: 250px;
     background-size: cover;
     background-position: center;
+}
+
+.gradient img {
+    height: 250px;
+    /* display: block; */
+    /* position: absolute; */
+    /* scaling is strange with vw, but maybe padding is whats off? */
+    padding-left: 70vw;
 }
 
 
