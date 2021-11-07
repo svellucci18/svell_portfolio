@@ -11,22 +11,21 @@
 --pfont: Georgia, 'Times New Roman', Times, serif;
 }
 
-* {
-    background-color: var(--ghost-white);
-}
-
 body {
-    /* display: flex; */
+    background-color: var(--ghost-white);
+    color: var(--antique-ruby);
+    font-family: var(--pfont);
     margin: auto;
 }
 
-header {
+.topcontainer {
+    display: flex;
     background-color: var(--brink-pink);
-    height: 100px;
-    width: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
 
-header h1 {
+#logo {
     background-color: var(--sandy-brown);
     width: 15%;
     text-align: right;
@@ -35,9 +34,15 @@ header h1 {
     font-family: var(--boldfont);
 }
 
-header a {
-    background-color: var(--brink-pink);
+#navbar li{
+    display: inline-block;
+    
+}
 
+#navbar a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
 }
 
 /* background image */
