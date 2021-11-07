@@ -6,10 +6,41 @@
 --brink-pink: #FF5580ff;
 --congo-pink: #FF7E77ff;
 --sandy-brown: #FF9F5Dff;
---timberwolf: #E4DFDA;
+--ghost-white: #F4F4F8;
+--boldfont: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+--pfont: Georgia, 'Times New Roman', Times, serif;
 }
 
 * {
-    background-color: var(--timberwolf) ;
+    background-color: var(--ghost-white);
 }
+
+body {
+    display: flex;
+    margin: auto;
+}
+
+header {
+    background-color: var(--brink-pink);
+    height: 56px;
+    width: 100%;
+    list-style-type: none;
+}
+
+header h1 {
+    background-color: var(--sandy-brown);
+    color: var(--ghost-white);
+    font-family: var(--boldfont);
+}
+
+nav {
+    background-color: var(--brink-pink);
+    
+}
+
+nav a {
+    background-color: var(--brink-pink);
+    
+}
+
 
