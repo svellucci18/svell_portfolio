@@ -22,25 +22,25 @@ body {
 
 header {
     background-color: var(--brink-pink);
-    height: 56px;
+    height: 100px;
     width: 100%;
-    list-style-type: none;
 }
 
 header h1 {
     background-color: var(--sandy-brown);
+    width: 15%;
+    text-align: right;
+    padding: 10px 10px 10px 0px;
     color: var(--ghost-white);
     font-family: var(--boldfont);
 }
 
-nav {
+header a {
     background-color: var(--brink-pink);
-    
+    text-align: center;
+    padding: 5px 5px;
 }
 
-nav a {
-    background-color: var(--brink-pink);
-    
-}
+
 
 
