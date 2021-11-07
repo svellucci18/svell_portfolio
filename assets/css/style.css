@@ -1,0 +1,15 @@
+
+/* Color pallete from coolers*/
+:root {
+--antique-ruby: #8B012Dff;
+--eminence: #793996ff;
+--brink-pink: #FF5580ff;
+--congo-pink: #FF7E77ff;
+--sandy-brown: #FF9F5Dff;
+--timberwolf: #E4DFDA;
+}
+
+* {
+    background-color: var(--timberwolf) ;
+}
+
