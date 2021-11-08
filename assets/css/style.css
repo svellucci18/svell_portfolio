@@ -30,6 +30,7 @@ body {
     background-color: var(--brink-pink);
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 #logo {
@@ -79,7 +80,7 @@ body {
 }
 
 .mission {
-    border: 2px solid var(--brink-pink);
+    /* border: 2px solid var(--brink-pink); */
     padding: 10px;
     margin: 10px 100px;
     /* flex: 0 2 20%; */
@@ -108,7 +109,7 @@ body {
 .collection {
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid var(--brink-pink);
+    /* border: 2px solid var(--brink-pink); */
     padding: 10px;
     margin: 10px 100px;
     /* this max-width keeps it in-line but is problematic */
@@ -118,9 +119,12 @@ body {
     /* margin-left: auto; */
 }
 
-.collection img {
-    /* flex: 1 0 50%;     */
-    width: 380px;
+.work {
+    flex: 1 0 50%;
+}
+
+.work img { 
+    width: 100%;
     height: 200px;
     object-fit: cover;
     padding: 0px 1px;
@@ -130,9 +134,10 @@ body {
 #highlightwork {
     /* position: absolute; */
     flex-basis: 100%;
-    /* width: 780px; */
+    width: 100%;
     height: 200px;
     object-fit: cover;
+    padding: 5px 0px;
     margin: auto;
 }
 
@@ -147,13 +152,12 @@ body {
 .contact {
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid var(--brink-pink);
+    /* border: 2px solid var(--brink-pink); */
     padding: 10px;
     margin: 10px 100px;
     /* this max-width keeps it in-line but is problematic */
     width: 800px;
     justify-content: flex-end;
-    gap: 15px;
     margin-left: auto;
 }
 
