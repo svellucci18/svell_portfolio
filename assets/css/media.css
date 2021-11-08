@@ -1,0 +1,22 @@
+/* tablet size */
+@media screen and (max-width: 992px) {
+    .topcontainer {
+        display: none;
+    }
+  }
+
+/* Large smartphones */
+@media screen and (max-width: 768px) {
+    .topcontainer {
+        display: none;
+    }
+  }
+  
+  /* Small smartphones*/
+  @media screen and (max-width: 576px) {
+    
+    
+    .work {
+        flex-basis: 100%;
+    }
+  }
