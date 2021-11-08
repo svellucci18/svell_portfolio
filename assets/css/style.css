@@ -58,6 +58,14 @@ body {
     padding: 10px 20px;
 }
 
+/* CURRENTLY DOES NOTHING: anchors nav links below the fixed header */
+a .anchor {
+    display: block;
+    position: relative;
+    margin-top: -250px;
+    visibility: hidden;
+}
+
 /* background image and avatar*/
 .gradient {
     background-image: url("../images/sean-sinclair-C_NJKfnTR5A-unsplash.jpg");
@@ -134,12 +142,17 @@ div ul li {
     padding: 20px;
 }
 
+/* Anything but desktop*/
+@media screen and (max-width: 768px) {
+    .topcontainer {
+        position: static;
+    }
 
-/* Small smartphones*/
-@media screen and (max-width: 576px) {
-    
-    
+    .gradient {
+        margin-top: 0px;
+    }
+
     .work {
         flex-basis: 100%;
     }
-  }
+}
