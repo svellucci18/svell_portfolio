@@ -170,6 +170,9 @@ div ul li {
         margin-top: 0px;
     }
 
+    .sectioncontent {
+        margin: 10px 10px;
+    }
     .work {
         flex-basis: 100%;
     }
