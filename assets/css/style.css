@@ -101,21 +101,29 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: stretch;
+    border: 2px solid var(--brink-pink);
+    padding: 10px;
+    margin: 10px 100px;
+    /* this max-width keeps it in-line but is problematic */
+    width: 800px;
     margin-left: auto;
+    /* justify-content: space-evenly; */
+    /* align-items: stretch; */
+    /* margin-left: auto; */
 }
 
-.work img {
+.images div img {
+    flex: 1 1 800px;    
     width: 380px;
     height: 200px;
     object-fit: cover;
     padding: 0px 1px;
+    margin: auto;
   }
 
-#highlightwork img {
-    /* flex: 1 1 800px; */
-    width: 780px;
+.highlightwork {
+    flex: 1 2 800px;
+    /* width: 780px; */
     height: 200px;
     object-fit: cover;
     margin: auto;
