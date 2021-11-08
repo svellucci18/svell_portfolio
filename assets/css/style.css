@@ -159,21 +159,3 @@ div ul li {
     display: inline-block;
     padding: 20px;
 }
-
-/* Anything but desktop*/
-@media screen and (max-width: 768px) {
-    .topcontainer {
-        position: static;
-    }
-
-    .gradient {
-        margin-top: 0px;
-    }
-
-    .sectioncontent {
-        margin: 10px 10px;
-    }
-    .work {
-        flex-basis: 100%;
-    }
-}

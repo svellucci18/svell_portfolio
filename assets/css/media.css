@@ -1,22 +1,19 @@
-/* tablet size */
-@media screen and (max-width: 992px) {
-    .topcontainer {
-        display: none;
-    }
+/* tablet size 992px 768px 576px*/
+
+/* Anything but desktop*/
+@media screen and (max-width: 768px) {
+  .topcontainer {
+      position: static;
   }
 
-/* Large smartphones */
-@media screen and (max-width: 768px) {
-    .topcontainer {
-        display: none;
-    }
+  .gradient {
+      margin-top: 0px;
   }
-  
-  /* Small smartphones*/
-  @media screen and (max-width: 576px) {
-    
-    
-    .work {
-        flex-basis: 100%;
-    }
+
+  .sectioncontent {
+      margin: 10px 10px;
   }
+  .work {
+      flex-basis: 100%;
+  }
+}
