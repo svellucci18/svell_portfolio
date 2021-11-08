@@ -71,12 +71,12 @@ body {
 }
 
 /* main content - mission section */
-.midcontainer {
+.missioncontainer {
     display: flex;
     flex-wrap: wrap;
 }
 
-.content {
+.mission {
     border: 2px solid var(--brink-pink);
     padding: 10px;
     margin: 10px 100px;
@@ -97,22 +97,23 @@ body {
 }
 
 /* main content - collection section */
-.images {
+.collectioncontainer {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
+}
+
+.collection {
     border: 2px solid var(--brink-pink);
     padding: 10px;
     margin: 10px 100px;
     /* this max-width keeps it in-line but is problematic */
     width: 800px;
     margin-left: auto;
-    /* justify-content: space-evenly; */
     /* align-items: stretch; */
     /* margin-left: auto; */
 }
 
-.images div img {
+.collection div img {
     flex: 1 1 800px;    
     width: 380px;
     height: 200px;
@@ -121,7 +122,8 @@ body {
     margin: auto;
   }
 
-.highlightwork {
+#highlightwork {
+    /* position: absolute; */
     flex: 1 2 800px;
     /* width: 780px; */
     height: 200px;
@@ -131,12 +133,22 @@ body {
 
 
 /* main content - contact info section */
-div ul {
+.contactcontainer {
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
+    /* justify-content: space-between; */
 }
 
-ul li {
+.contact {
+    border: 2px solid var(--brink-pink);
+    padding: 10px;
+    margin: 10px 100px;
+    /* this max-width keeps it in-line but is problematic */
+    width: 800px;
+    margin-left: auto;
+}
+
+div ul li {
     display: inline-block;
+    padding: 20px;
 }
