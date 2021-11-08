@@ -16,6 +16,7 @@
 --pfont: Georgia, 'Times New Roman', Times, serif;
 }
 
+/* Background settings / font */
 body {
     background-color: var(--ghost-white);
     color: var(--denim);
@@ -69,27 +70,28 @@ body {
 
 .gradient img {
     height: 250px;
-    /* display: block; */
-    /* position: absolute; */
     /* scaling is strange with vw, but maybe padding is whats off? */
     padding-left: 5vw;
 }
 
-/* main content - mission section */
-.missioncontainer {
+/* main content - flex box within a flex box */
+.sectioncontainer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 
-.mission {
+.sectioncontent {
+    display: flex;
+    flex-wrap: wrap;
     /* border: 2px solid var(--brink-pink); */
     padding: 10px;
     margin: 10px 100px;
     /* flex: 0 2 20%; */
     /* this max-width keeps it in-line but is problematic */
     width: 800px;
+    margin-left: auto;
+    justify-content: flex-end;
     margin-left: auto;
 }
 
@@ -104,25 +106,7 @@ body {
     max-height: 30px;
 }
 
-/* main content - collection section */
-.collectioncontainer {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.collection {
-    display: flex;
-    flex-wrap: wrap;
-    /* border: 2px solid var(--brink-pink); */
-    padding: 10px;
-    margin: 10px 100px;
-    /* this max-width keeps it in-line but is problematic */
-    width: 800px;
-    margin-left: auto;
-    /* align-items: stretch; */
-    /* margin-left: auto; */
-}
-
+/* main content - images within collection */
 .work {
     flex: 1 0 50%;
 }
@@ -145,26 +129,7 @@ body {
     margin: auto;
 }
 
-
 /* main content - contact info section */
-.contactcontainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.contact {
-    display: flex;
-    flex-wrap: wrap;
-    /* border: 2px solid var(--brink-pink); */
-    padding: 10px;
-    margin: 10px 100px;
-    /* this max-width keeps it in-line but is problematic */
-    width: 800px;
-    justify-content: flex-end;
-    margin-left: auto;
-}
-
 div ul li {
     display: inline-block;
     padding: 20px;
