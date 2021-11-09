@@ -91,7 +91,7 @@ html {
     /* border: 2px solid var(--brink-pink); */
     padding: 10px;
     margin: 10px 100px;
-    /* flex: 0 2 20%; */
+    /* flex: 0 2 60%; */
     /* this max-width keeps it in-line but is problematic */
     width: 800px;
     margin-left: auto;
@@ -103,12 +103,12 @@ html {
 /* main content - sideheader */
 .sideheader {
     background-color: var(--sandy-brown);
-    /* flex: 0 1 70%; */
+    flex: 0 1 30%;
     text-align: right;
-    padding: 10px 10px 10px 50px;
     color: var(--ghost-white);
     font-family: var(--boldfont);
-    max-height: 30px;
+    max-height: 40px;
+    padding: 5px 5px;
 }
 
 /* main content - images within collection */

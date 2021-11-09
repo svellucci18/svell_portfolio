@@ -13,6 +13,11 @@
   .sectioncontent {
       margin: 10px 10px;
   }
+
+  .sideheader {
+     flex-basis: 100%; 
+  }
+
   .work {
       flex-basis: 100%;
   }
