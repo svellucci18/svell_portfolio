@@ -29,3 +29,9 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
+
+![Wide screen portfolio screenshot](./assets/images/svellportfolio-wide.png)
+
+![Small screen portfolio screenshot](./assets/images/svellportfolio-small.png)
+
+[Link to live portfolio](https://svellucci18.github.io/svell_portfolio/)
