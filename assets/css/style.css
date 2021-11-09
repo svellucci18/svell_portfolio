@@ -24,6 +24,11 @@ body {
     margin: auto;
 }
 
+/*anchors nav links below the fixed header */
+html {
+    scroll-padding-top: 100px; /* height of sticky header */
+  }
+
 /* header and navbar */
 .topcontainer {
     display: flex;
@@ -58,14 +63,6 @@ body {
     padding: 10px 20px;
 }
 
-/* CURRENTLY DOES NOTHING: anchors nav links below the fixed header */
-a .anchor {
-    display: block;
-    position: relative;
-    margin-top: -250px;
-    visibility: hidden;
-}
-
 /* background image and avatar*/
 .gradient {
     background-image: url("../images/sean-sinclair-C_NJKfnTR5A-unsplash.jpg");
@@ -86,7 +83,6 @@ a .anchor {
 .sectioncontainer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .sectioncontent {
